@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Symbl Joining Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="jumbotron text-center" style="background-color: lightskyblue;">
+      <h1>Symbl AI demo app</h1>
+      <br />
+      <p>Fill in the data below to have Symbl join your conversation</p>
+    </div>
+
+    <div class="container">
+      <div class="row" style="justify-content: center;">
+        <div
+          class="col-sm-4"
+          style="
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px,
+              rgba(0, 0, 0, 0.23) 0px 3px 10px;
+          "
+        >
+          <form action="/join" method="POST">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="userEmail"
+                name="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Meeting Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="meetingName"
+                name="meetingName"
+                value="Demo Meeting"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Dial-in Number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="meetingNumber"
+                name="number"
+                placeholder="123456789"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Meeting Code</label>
+              <input
+                type="text"
+                class="form-control"
+                id="meetingCode"
+                name="code"
+                placeholder="3456#"
+                tool
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">App ID</label>
+              <input
+                type="text"
+                class="form-control"
+                id="appID"
+                name="appId"
+                placeholder="Your App Id"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">App Secret</label>
+              <input
+                type="password"
+                class="form-control"
+                id="appSecret"
+                name="appSecret"
+                placeholder="Your App Secret"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
