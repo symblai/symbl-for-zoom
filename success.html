@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Symbl Joining Example</title>
+    <title>Symbl AI Personal Assistant</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -11,26 +11,36 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <div class="jumbotron text-center" style="background-color: lightskyblue;">
-      <h1>Symbl AI demo app</h1>
+    <div class="jumbotron text-center" id="header">
+      <h1>Symbl AI Personal Assistant</h1>
       <br />
-      <p>Fill in the data below to have Symbl join your conversation</p>
+      <p>
+        Fill in the information below to have Symbl join your conversation
+      </p>
     </div>
 
     <div class="container">
-      <div class="row" style="justify-content: center;">
-        <div
-          class="col-sm-4"
-          style="
-            border: 1px solid;
-            padding: 10px;
-            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px,
-              rgba(0, 0, 0, 0.23) 0px 3px 10px;
-          "
-        >
-          <h1>Success</h1>
+      <div class="row">
+        <div class="col-sm-12" style="text-align: left;">
+          <h2>
+            Success! Symbl is now dialing into your meeting.
+          </h2>
+          <br />
+          <h3>
+            At the end of the call, Symbl will send you an email with the
+            conversation summary.
+          </h3>
+          <br />
+          <button
+            type="buton"
+            onclick="window.history.back();"
+            class="btn btn-primary"
+          >
+            Join another meeting
+          </button>
         </div>
       </div>
     </div>

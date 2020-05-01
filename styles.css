@@ -1,0 +1,21 @@
+h1,
+h2,
+h3,
+h4,
+p,
+label {
+  color: white;
+}
+
+html,
+body {
+  background-color: #1a1f36;
+}
+
+#header {
+  background-color: #4f566b;
+}
+
+#form {
+  background-color: #4f566b;
+}
