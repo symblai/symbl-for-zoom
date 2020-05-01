@@ -1,4 +1,4 @@
-# Symbl Zoom Meeting App
+# Symbl Personal Assistant Meeting App
 
 This is a sample app that lets you invite Symbl to your zoom meeting by just pasting in the meeting invite
 
