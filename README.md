@@ -8,9 +8,10 @@ First update the .env file with the following:
 1. Your App Id that you can get from [Platform](https://platform.symbl.ai)
 2. Your App Secret that you can get from [Platform](https://platform.symbl.ai)
 
+## Run
 
 1. First, run `npm install` to download all the node modules
-2. Second, run `node app.js` to start the websocket server
+2. Second, run `node app.js` to start the node server
 3. Navigate to localhost:5000 to view the app
 
 ## Note
