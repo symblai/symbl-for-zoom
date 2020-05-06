@@ -21,9 +21,10 @@ app.get("/", (req, res) => {
 });
 
 app.post("/join", (req, res) => {
-  //console.log(req.body);
   const sample = req.body.meetingInvite;
+  const meetingName = req.body.meetingName;
   const parser = zoomParser();
+
   if (parser.isValid(sample)) {
     const result = parser.parse(sample);
     result.then((data) => {
@@ -51,6 +52,11 @@ app.post("/join", (req, res) => {
                   },
                 },
               ],
+              data: {
+                session: {
+                  name: meetingName,
+                },
+              },
             })
             .then((connection) => {
               const connectionId = connection.connectionId;
@@ -75,5 +81,5 @@ app.post("/join", (req, res) => {
 var port = process.env.PORT || 5000;
 
 app.listen(port, function () {
-  console.log("Example app listening on port " + port + "!");
+  console.log("Symbl Personal Assistant app listening on port " + port + "!");
 });
