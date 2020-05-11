@@ -2,6 +2,17 @@
 
 This is a sample app that lets you invite Symbl to your zoom meeting by just pasting in the meeting invite
 
+
+### sample web app (local version)
+```javascript
+git clone https://github.com/symblai/symbl-for-zoom.git --branch master --depth 1
+cd symbl-for-zoom
+npm install
+npm run start
+```
+
+open browser http://localhost:5000
+
 ## Update .env
 
 First update the .env file with the following:
@@ -17,6 +28,20 @@ First update the .env file with the following:
 ## Note
 
 This is a sample application and should not be directly used in a production environment. Use this as a sample to build upon with proper production guidelines in mind.
+
+### Dependencies
+
+```package.json
+"dependencies": {
+	"react": "16.8.6",
+	"react-dom": "16.8.6",
+	"redux": "3.7.2",
+	"react-redux": "7.1.0",
+	"jquery": "^3.4.1",
+	"lodash": "^4.17.14",
+	"redux-thunk": "2.2.0"
+}
+```
 
 ## References
 
