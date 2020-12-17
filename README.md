@@ -25,6 +25,10 @@ First update the .env file with the following:
 2. Second, run `node app.js` to start the node server
 3. Navigate to localhost:5000 to view the app
 
+## Zoom Settings
+
+Zoom setting "Require passcode for participants joining by phone" must be turned to off for the Symbl caller to connect. 
+
 ## Note
 
 This is a sample application and should not be directly used in a production environment. Use this as a sample to build upon with proper production guidelines in mind.
