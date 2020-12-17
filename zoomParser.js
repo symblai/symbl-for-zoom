@@ -5,7 +5,7 @@ const { get } = require("lodash");
 const regex = /(.*).*[.,\s].*Meeting ID:[\s]*([\d\s]+)?/gm;
 const phoneNumberRegex = /[+][\s,0-9].*/gm;
 const urlRegex = /.*https:\/\/.*[.]*zoom.us\/j\/(\d+)/gm;
-const passwordRegex = /Password:[\s]*([\d]+)/gim;
+const passwordRegex = /Passcode:[\s]*([\d]+)/gim;
 const joiningInstructionsRegex = /Joining instructions:(.*)/gim;
 
 const standardPhoneNumbers = { US: ["+16465588656", "+14086380968"] };
