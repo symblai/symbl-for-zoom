@@ -1,7 +1,7 @@
 # Symbl Personal Assistant Meeting App
 
 ============================
-
+[![Telephony](https://img.shields.io/badge/Symbl-Telephony-brightgreen)](https://docs.symbl.ai/docs/telephony/overview/post-api)
 <hr />
     <img src="https://developer.symbl.ai/assets/images/Symbl.svg" height="48px" alt="Symbl is Conversational AI />
 <hr /> 
@@ -101,9 +101,15 @@ Navigate to localhost:5000 to view the app
 
 ## Community
 
-If you liked our integration guide, please star our repo! If you have any questions, feel free to reach out to us at devrelations@symbl.ai or through our Community Slack at https://developer.symbl.ai/community/slack or our [developer community][developer_community]. 
+If you have any questions, feel free to reach out to us at devrelations@symbl.ai or thorugh our Community Slack at https://developer.symbl.ai/community/slack [developer community][developer_community]
+
+This guide is actively developed, and we love to hear from you! Please feel free to [create an issue][issues] or [open a pull request][pulls] with your questions, comments, suggestions and feedback.  If you liked our integration guide, please star our repo!
+
 This library is released under the [MIT License][license]
+
 [license]: LICENSE.txt
 [telephony]: https://docs.symbl.ai/docs/telephony/overview/post-api
 [developer_community]: https://community.symbl.ai/?_ga=2.134156042.526040298.1609788827-1505817196.1609788827
 [signup]: https://platform.symbl.ai/?_ga=2.63499307.526040298.1609788827-1505817196.1609788827
+[issues]: https://github.com/symblai/symbl-for-zoom/issues
+[pulls]: https://github.com/symblai/symbl-for-zoom/pulls
