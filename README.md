@@ -1,21 +1,20 @@
 # Symbl Personal Assistant Meeting App
 
-============================
-[![Telephony](https://img.shields.io/badge/Symbl-Telephony-brightgreen)](https://docs.symbl.ai/docs/telephony/overview/post-api)
-<hr />
-    <img src="https://developer.symbl.ai/assets/images/Symbl.svg" height="48px" alt="Symbl is Conversational AI />
-<hr /> 
 
-============================
+[![Telephony](https://img.shields.io/badge/Symbl-Telephony-brightgreen)](https://docs.symbl.ai/docs/telephony/overview/post-api)
 
 Symbl's APIs empower developers to enable: 
 - **Real-time** analysis of free-flowing discussions to automatically surface highly relevant summary discussion topics, contextual insights, suggestive action items, follow-ups, decisions, and questions.\
 - **Voice APIs** that makes it easy to add AI-powered conversational intelligence to either [telephony][telephony] or [WebSocket][websocket] interfaces.
 - **Conversation APIs** that provide a REST interface for managing and processing your conversation data.
 - **Summary UI** with a fully customizable and editable reference experience that indexes a searchable transcript and shows generated actionable insights, topics, timecodes, and speaker information.
+
 <hr />
-Enable Symbl for Zoom Meetings
+
+## Enable Symbl for Zoom Meetings
+
 <hr />
+
  * [Introduction](#introduction)
  * [Pre-requisites](#pre-requisites)
  * [Setup and Deploy](#setupanddeploy)
@@ -109,6 +108,7 @@ This library is released under the [MIT License][license]
 
 [license]: LICENSE.txt
 [telephony]: https://docs.symbl.ai/docs/telephony/overview/post-api
+[websocket]: https://docs.symbl.ai/docs/streamingapi/overview/introduction
 [developer_community]: https://community.symbl.ai/?_ga=2.134156042.526040298.1609788827-1505817196.1609788827
 [signup]: https://platform.symbl.ai/?_ga=2.63499307.526040298.1609788827-1505817196.1609788827
 [issues]: https://github.com/symblai/symbl-for-zoom/issues
